@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<partial name="NavPartial" />
+<div class="text-center">
+    <h1 class="display-4">About me</h1>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-fluid rounded-circle shadow-lg" style="max-width: 40%;" src="~/images/me.jpg"
+                alt="Image of Eric Smith and is Pug, Bender">
+        </div>
+        <div class="col-md-6">
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis varius diam at
+                interdum.
+                Aliquam viverra ex et purus dignissim, sed accumsan urna ornare. In sollicitudin elementum arcu sed
+                tincidunt. Ut varius magna neque, vitae euismod massa elementum non. Donec sed leo vehicula,
+                condimentum
+                tortor sed, cursus augue. Donec lacus nisi, sagittis at blandit auctor, iaculis a sapien. Nullam
+                egestas
+                lectus ac metus condimentum vestibulum. Duis elementum ante eget lacinia varius. Morbi vel ultricies
+                ante. Ut lobortis purus quis auctor semper. Curabitur sagittis maximus sem vel cursus. Aliquam erat
+                volutpat. Nam vel enim non arcu ultricies lobortis a eget diam. Morbi suscipit ipsum nec erat
+                rhoncus
+                egestas eu a risus. Donec non diam sed leo lacinia luctus.</p>
+        </div>
+    </div>
+</div>
+<partial name="FooterPartial" />

@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Contact";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<partial name="NavPartial"/>
+
+<div class="text-center">
+    <h1 class="display-4">Contact</h1>
+</div>
+
+<div class="container text-center item-center">
+    <form>
+            <div class="form-row justify-content-md-center">
+                <div class="form-group col-md-6">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Your first and last name, please.">
+                    <br>
+                    <label>Email address:</label>
+                    <input type="email" class="form-control" placeholder="name@example.com">
+                    <br>
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-dark">Send</button>
+        </form>
+</div>
+
+<partial name="FooterPartial"/>
